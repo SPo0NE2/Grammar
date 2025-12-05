@@ -1,0 +1,16 @@
+=== 开始分析文件: as.sonnx ===
+
+1. 词法分析中...
+   词法单元总数: 57
+   Token 统计:
+     OTHER: 9
+     SYMBOL: 26
+     KEYWORD: 8
+     STRING: 11
+     INTEGER: 3
+
+2. 语法分析和 AST 构建中...
+警告！******语法错误 [第16行第4列]: mismatched input '}' expecting {']', ','}
+警告！******错误标记: '}'
+   语法分析成功!
+编译失败: Cannot invoke "org.antlr.v4.runtime.tree.ParseTree.accept(org.antlr.v4.runtime.tree.ParseTreeVisitor)" because "tree" is null

@@ -1,0 +1,19 @@
+=== 开始分析文件: test.sonnx ===
+
+1. 词法分析中...
+   词法单元总数: 159
+   Token 统计:
+     OTHER: 39
+     BYTES: 1
+     SYMBOL: 76
+     KEYWORD: 14
+     STRING: 14
+     INTEGER: 15
+
+2. 语法分析和 AST 构建中...
+警告！******语法错误 [第38行第8列]: mismatched input 'initializer' expecting {'dim', '}'}
+警告！******错误标记: 'initializer'
+警告！******语法错误 [第44行第8列]: mismatched input 'output' expecting {'raw_data', INTEGER}
+警告！******错误标记: 'output'
+   语法分析成功!
+编译失败: Cannot invoke "org.antlr.v4.runtime.tree.ParseTree.accept(org.antlr.v4.runtime.tree.ParseTreeVisitor)" because "tree" is null
